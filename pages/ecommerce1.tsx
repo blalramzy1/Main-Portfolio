@@ -18,8 +18,8 @@ const Ecommerce1 = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src='https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/projects%202.png'
-          alt='/'
+          src='https://raw.githubusercontent.com/blalramzy1/pic-protfoilio/main/projects%202.png?token=GHSAT0AAAAAAB7MH46RJ5WYZ2BFTBMOTCREZD45J6A'
+          alt=''
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>E-commerce</h2>
@@ -35,7 +35,7 @@ const Ecommerce1 = () => {
             This app was built using React JS and Tailwind. 
           </p>
           <a
-            href='/'
+            href='https://github.com/blalramzy1/Ecommerce-Food'
             target='_blank'
             rel='noreferrer'
           >
