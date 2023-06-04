@@ -17,7 +17,7 @@ const about = () => {
                 in building front-end applications using HTML, CSS, Javascript, 
                 React and Next.js, I am a quick learner and can pick up new tech stacks as
                 needed.</p>
-                <Link href='/#projects' className='py-4 text-gray-600 no-underline hover:underline cursor-pointer'>/* Check out some of my latest projects */</Link>
+                <Link href='/#projects' className='py-4 text-gray-600 no-underline hover:underline cursor-pointer'>Check out some of my latest projects */</Link>
             </div>
             <div className='py-2'>
                 <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center md:py-6 p-4 hover:scale-105 ease-in duration-300'>

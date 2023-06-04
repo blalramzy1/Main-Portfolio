@@ -83,7 +83,7 @@ const Contact = () => {
                         </div>
                         <div className='flex flex-col py-2'>
                             <label className='uppercase text-sm py-4 px-2 font-sans'>Message</label>
-                            <textarea name="message" className='border-2 rounded-lg p-3 border-gray-400 font-sans font-semibold' rows='10'></textarea>
+                            <textarea name="message" className='border-2 rounded-lg p-3 border-gray-400 font-sans font-semibold'></textarea>
                         </div>
                         <button className='w-full p-4 text-gray-100 bg-[#5651e5] mt-4' type="submit">Send Message</button>
                         </form>
