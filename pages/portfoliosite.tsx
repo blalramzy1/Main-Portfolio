@@ -1,12 +1,11 @@
 import Image from 'next/image';
-import React from 'react';
-import portfoliositeImg from '../public/assets/projects/projects 5.png';
+import React, { useState ,useEffect } from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
 
 const portfoliosite = () => {
-  return (
+  return (  
     <div className='w-full'>
        <Head>
             <title>Landing page</title>
@@ -17,8 +16,8 @@ const portfoliosite = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={portfoliositeImg}
-          alt='/'
+          src={'https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/projects%205.png'}
+          alt='Full-width Image'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>portfolio Site</h2>

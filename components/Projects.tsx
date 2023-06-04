@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useState,useEffect}from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Project1 from '../public/assets/projects/project 1.png'
@@ -12,6 +12,8 @@ import Project7 from '../public/assets/projects/project 7.jpg'
 
 
 const Projects = () => {
+    
+
   return (
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
@@ -19,7 +21,7 @@ const Projects = () => {
             <h2 className='py-4'>What I&#39;ve Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9] ease-in duration-200'>
-            <Image className='rounded-xl group-hover:opacity-10' src={Project1} alt="/" />
+            <Image width={500} height={300}  className='rounded-xl group-hover:opacity-10' src='https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/project%201.png' alt="/" />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
             <h3 className='text-2xl font-sans tracking-widest text-center py-2'>Hotel</h3>
                 <Link href='/hotel'>
@@ -28,7 +30,7 @@ const Projects = () => {
             </div>
          </div>
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9]'>
-        <Image className='rounded-xl group-hover:opacity-10' src={Project2} alt="/" />
+        <Image width={500} height={300}  className='rounded-xl group-hover:opacity-10' src='https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/projects%202.png' alt="/" />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-2xl font-sans tracking-widest text-center py-2'>Ecommerce Food</h3>
                 <Link href='/ecommerce1'>
@@ -37,7 +39,7 @@ const Projects = () => {
             </div>
          </div>
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9]'>
-        <Image className='rounded-xl group-hover:opacity-10' src={Project3} alt="/" />
+        <Image width={500} height={300}  className='rounded-xl group-hover:opacity-10' src='https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/projects%203.png' alt="/" />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-2xl font-sans tracking-widest text-center py-2'>semi Ecommerce</h3>
                 <Link href='/ecommerce2'>
@@ -46,7 +48,7 @@ const Projects = () => {
             </div>
          </div>
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9]'>
-        <Image className='rounded-xl group-hover:opacity-10' src={Project4} alt="/" />
+        <Image width={500} height={300}  className='rounded-xl group-hover:opacity-10' src={"https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/projects%204.png"} alt="/" />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
             <h3 className='text-2xl font-sans tracking-widest text-center py-2'>GYM</h3>
                 <Link href='/gym'>
@@ -55,7 +57,7 @@ const Projects = () => {
             </div>
          </div>
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9]'>
-        <Image className='rounded-xl group-hover:opacity-10' src={Project5} alt="/" />
+        <Image width={500} height={300}  className='rounded-xl group-hover:opacity-10' src={'https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/projects%205.png'} alt="/" />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
             <h3 className='text-2xl font-sans tracking-widest text-center py-2'>Landing page</h3>
                 <Link href='/portfoliosite'>
@@ -64,7 +66,7 @@ const Projects = () => {
             </div>
          </div>
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9]'>
-        <Image className='rounded-xl group-hover:opacity-10' src={Project6} alt="/" />
+        <Image width={500} height={300}  className='rounded-xl group-hover:opacity-10' src={'https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/project%206.jpg'} alt="/" />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
             <h3 className='text-2xl font-sans tracking-widest text-center py-2'>Hulu 2.0</h3>
                 <Link href='/Hulu'>
@@ -73,10 +75,10 @@ const Projects = () => {
             </div>
          </div>
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9]'>
-        <Image className='rounded-xl group-hover:opacity-10' src={Project7} alt="/" />
+        <Image width={500} height={300} className='rounded-xl group-hover:opacity-10' src={'https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/project%207.jpg'} alt="/" />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
             <h3 className='text-2xl font-sans tracking-widest text-center py-2'>Twitch App</h3>
-                <Link href='/Twitch App'>
+                <Link href='/TwitchApp'>
                     <p className='text-center font-sans py-3 bg-white rounded-xl text-gray-700 hover:bg-gray-200 font-bold text-lg cursor-pointer'>More Info</p>
                  </Link>
             </div>

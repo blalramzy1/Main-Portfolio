@@ -18,7 +18,7 @@ const Ecommerce1 = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={EcommerceImg}
+          src='https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/projects%202.png'
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -61,15 +61,6 @@ const Ecommerce1 = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
               </p>
             </div>
           </div>

@@ -13,11 +13,11 @@ const gym = () => {
       </Head>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/20 z-10' />
-        <Image
+        <img
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={GymImg}
+          src='https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/projects%204.png'
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
