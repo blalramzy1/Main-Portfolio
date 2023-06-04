@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import EcommerceImg from '../public/assets/projects/projects 2.png';
+import EcommerceImg from '../public/assets/projects/projects 2.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import NavBar from '@/components/NavBar';
