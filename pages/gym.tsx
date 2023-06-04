@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import GymImg from '../public/assets/projects/projects 4.png';
+import GymImg from '../public/assets/projects/projects 4.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -17,7 +17,7 @@ const gym = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src='https://raw.githubusercontent.com/blalramzy1/pic-protfoilio/main/projects%204.png?token=GHSAT0AAAAAAB7MH46QRER56Y5R2DE35Y42ZD45Q5A'
+          src={GymImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>

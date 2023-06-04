@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import hotelImg from '../public/assets/projects/project 1.png';
+import hotelImg from '../public/assets/projects/project 1.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -17,7 +17,7 @@ const hotel = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src='https://raw.githubusercontent.com/blalramzy1/main-Portfolio/main/public/assets/projects/project%201.png'
+          src={hotelImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
