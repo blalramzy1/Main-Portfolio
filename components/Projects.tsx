@@ -39,15 +39,7 @@ const Projects = () => {
                  </Link>
             </div>
          </div>
-         <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9]'>
-        <Image width={600} height={300}  className='rounded-xl group-hover:opacity-10' src={Project3} alt="/" />
-            <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                <h3 className='text-2xl font-sans tracking-widest text-center py-2'>semi Ecommerce</h3>
-                <Link href='/ecommerce2'>
-                    <p className='text-center font-sans py-3 bg-white rounded-xl text-gray-700 hover:bg-gray-200 font-bold text-lg cursor-pointer'>More Info</p>
-                 </Link>
-            </div>
-         </div>
+        
          <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9]'>
         <Image width={600} height={300}  className='rounded-xl group-hover:opacity-10' src={Project4} alt="/" />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
