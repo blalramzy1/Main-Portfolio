@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import HuluImg from '../public/assets/projects/project 6.jpg'
+import HuluImg from '../public/assets/project 6.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import hotelImg from '../public/assets/projects/project 1.jpg';
+import hotelImg from '../public/assets/project 1.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';

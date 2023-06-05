@@ -3,7 +3,7 @@ import React, { useState ,useEffect } from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
-import LandingPageImg from '../public/assets/projects/projects 5.jpg'
+import LandingPageImg from '../public/assets/projects 5.jpg'
 
 const portfoliosite = () => {
   return (  
