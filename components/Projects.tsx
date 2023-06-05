@@ -21,7 +21,9 @@ const Projects = () => {
             <h2 className='py-4'>What I&#39;ve Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 p-4 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#b5bec9] ease-in duration-200'>
-            <Image width={600} height={300}  className='rounded-xl group-hover:opacity-10' src={Project1} alt="/" />
+            <div className='mx-auto'>
+                <Image width={600} height={300} className='rounded-xl group-hover:opacity-10' src={Project1} alt="/" />
+            </div>
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
             <h3 className='text-2xl font-sans tracking-widest text-center py-2'>Hotel</h3>
                 <Link href='/hotel'>

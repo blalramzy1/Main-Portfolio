@@ -33,13 +33,13 @@ const NavBar = () => {
             <div>
             <ul className='hidden font-sans md:flex'>
                 <Link href='/'>
-                    <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>Home</li>
+                    <li className='ml-10 text-sm uppercase hover:text-[#5651e5]' >Home</li>
                 </Link>
                 <Link href='/#about'>
                     <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>About</li>
                 </Link>
                 <Link href='/#skills'>
-                    <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>Skills</li>
+                    <li className='ml-10 text-sm uppercase hover:text-[#5651e5]' >Skills</li>
                 </Link>
                 <Link href='/#projects'>
                     <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>Projects</li>

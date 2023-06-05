@@ -13,13 +13,16 @@ const Hulu = () => {
         </Head>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/20 z-10' />
-        <Image
+        <div className='mx-auto'>
+          <Image
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
           src={HuluImg}
-          alt='/'
+          alt='my image'
         />
+        </div>
+        
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Hulu site</h2>
           <h3>React JS / Tailwind </h3>
