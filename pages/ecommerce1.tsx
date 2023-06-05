@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import EcommerceImg from '../public/assets/projects 2.jpg';
+import EcommerceImg from '../public/assets/Food-ecommerce.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';

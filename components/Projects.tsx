@@ -1,13 +1,13 @@
 import React ,{useState,useEffect}from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Project1 from '../public/assets/project 1.jpg'
-import Project2 from '../public/assets/projects 2.jpg'
-import Project3 from '../public/assets/projects 3.jpg'
-import Project4 from '../public/assets/projects 4.jpg'
-import Project5 from '../public/assets/projects 5.jpg'
-import Project6 from '../public/assets/project 6.jpg'
-import Project7 from '../public/assets/project 7.jpg'
+import Project1 from '../public/assets/Hotel.jpg'
+import Project2 from '../public/assets/Food-ecommerce.jpg'
+import Project3 from '../public/assets/semi e-commerce.jpg'
+import Project4 from '../public/assets/gym.jpg'
+import Project5 from '../public/assets/landingPage.jpg'
+import Project6 from '../public/assets/hulu.jpg'
+import Project7 from '../public/assets/twitch.jpg'
 
 
 const Projects = () => {

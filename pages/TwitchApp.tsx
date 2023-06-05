@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import TwitchImg from '../public/assets/project 7.jpg'
+import TwitchImg from '../public/assets/twitch.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -22,7 +22,7 @@ const gym = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Twitch site</h2>
-          <h3>React JS / Tailwind </h3>
+          <h3>Next JS / Tailwind </h3>
         </div>
       </div>
 
@@ -31,7 +31,7 @@ const gym = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className='font-sans font-bold py-4'>
-            This app was built using React JS and Tailwind. 
+            This app was built using Next JS and Tailwind. 
           </p>
           <a
             href='https://github.com/blalramzy1/Twitch_clone'

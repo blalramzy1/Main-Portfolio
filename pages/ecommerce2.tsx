@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ecommerce2Img from '../public/assets/projects 3.jpg';
+import ecommerce2Img from '../public/assets/semi e-commerce.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -22,7 +22,7 @@ const Ecommerce2 = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>E-commerce</h2>
-          <h3>React JS / Tailwind </h3>
+          <h3>React JS / Css </h3>
         </div>
       </div>
 
@@ -56,20 +56,12 @@ const Ecommerce2 = () => {
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Css
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
-              </p>
+             
             </div>
           </div>
         </div>

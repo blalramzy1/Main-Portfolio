@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import hotelImg from '../public/assets/project 1.jpg';
+import hotelImg from '../public/assets/Hotel.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -59,6 +59,9 @@ const hotel = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> many functions
               </p>
             </div>
           </div>
