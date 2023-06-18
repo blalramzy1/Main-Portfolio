@@ -27,7 +27,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <p className='py-4 text-[30px] font-bold font-sans'>Blal Ramzy</p>
-                            <p className='py-2 font-sans text-[20px]'>ReactJS Developer</p>
+                            <p className='py-2 font-sans text-[20px]'>NextJS Developer</p>
                             <p className='py-2 font-sans text-[17px]'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
                         </div>
                         <div>
@@ -62,7 +62,7 @@ const Contact = () => {
                 {/* right */}
                  <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
-                        <form action="https://getform.io/f/070faf47-9664-4ffd-b843-b1248320a0c3" method="POST">
+                        <form action="https://getform.io/f/b7ae8145-a0a0-41a0-8fdf-bf98ff6c8f73" method="POST">
                         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                             <div className='flex flex-col'>
                             <label className='uppercase text-sm py-2 px-2 font-sans'>Name</label>
@@ -83,7 +83,7 @@ const Contact = () => {
                         </div>
                         <div className='flex flex-col py-2'>
                             <label className='uppercase text-sm py-4 px-2 font-sans'>Message</label>
-                            <textarea name="message" className='border-2 rounded-lg p-3 border-gray-400 font-sans font-semibold'></textarea>
+                            <textarea name="message" className='border-2 h-40 rounded-lg p-3 border-gray-400 font-sans font-semibold'></textarea>
                         </div>
                         <button className='w-full p-4 text-gray-100 bg-[#5651e5] mt-4' type="submit">Send Message</button>
                         </form>

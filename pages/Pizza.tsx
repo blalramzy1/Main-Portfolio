@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import React from 'react';
-import GymImg from '../public/assets/gym.jpg';
+import pizza from '../public/assets/pizza-delvery.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
 
-const gym = () => {
+const Pizza = () => {
   return (
     <div className='w-full'>
       <Head>
-        <title>Gym</title>
+        <title>Pizza E-commerce</title>
       </Head>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/20 z-10' />
@@ -17,12 +17,12 @@ const gym = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={GymImg}
+          src={pizza}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Gym site</h2>
-          <h3>React JS / Tailwind </h3>
+          <h2 className='py-2'>Pizza site</h2>
+          <h3>Next JS / Tailwind </h3>
         </div>
       </div>
 
@@ -31,17 +31,17 @@ const gym = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className='font-sans font-bold py-4'>
-            This app was built using React JS and Tailwind. 
+            This app was built using Next JS and Tailwind. 
           </p>
           <a
-            href='https://github.com/blalramzy1/landing-page-GYM'
+            href='https://github.com/blalramzy1/Pizza-E-Commerce'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://gym-iota-beryl.vercel.app/'
+            href='https://pizza-e-commerce-phi.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -53,7 +53,7 @@ const gym = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Next
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind
@@ -61,7 +61,6 @@ const gym = () => {
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
-              
             </div>
           </div>
         </div>
@@ -73,4 +72,4 @@ const gym = () => {
   );
 };
 
-export default gym;
+export default Pizza;
