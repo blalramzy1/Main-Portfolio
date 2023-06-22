@@ -7,9 +7,9 @@ import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 export default function Home() {
   return (
-    <>
+    <div className=''>
       <Head>
-        <title> Next Devo </title>
+        <title> NextJS Dev </title>
       </Head>
       <NavBar />
       <Main />
@@ -17,6 +17,6 @@ export default function Home() {
       <Skills />
       <Projects/>
       <Contact />
-      </>
+      </div>
   )
 }

@@ -12,8 +12,8 @@ const Contact = () => {
     const router = useRouter();
 
   return (
-    <div id='contact' className='w-full h-screen'>
-        <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
+    <div id='contact' className='h-screen container'>
+        <div className='max-w-[1240px] w-full mx-auto py-16'>
             <div className='px-4'>
             <p className='py-4 uppercase font-bold tracking-widest text-[25px] text-[#5651e5]'>Contact</p>
             <h2 className='py-4'>Get In Touch</h2>
@@ -32,7 +32,7 @@ const Contact = () => {
                         </div>
                         <div>
                     <p className='px-8 py-4 font-sans font-[17px]'>Connect With Me</p>
-                    <div className='flex px-8 items-center justify-between'>
+                    <div className='flex gap-x-3 px-8 items-center justify-between'>
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                         <a target="_blank" onClick={() => router.push("https://www.linkedin.com/in/blal-ramzy-996883250/")}>
                         <FaLinkedin className="text-[25px]" />

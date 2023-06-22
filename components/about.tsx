@@ -7,7 +7,7 @@ import AboutImg from '../public/assets/about.jpg';
 const about = () => {
   return (
     <div id='about' className='w-full md:h-screen flex p-2 items-center py-16'>
-        <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+        <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2 pt-4'>
                 <h3 className='py-4 uppercase font-bold tracking-widest text-[25px] text-[#5651e5]'>About</h3>
                 <h2 className='py-3'>Who I Am</h2>
@@ -24,7 +24,6 @@ const about = () => {
                 <Image src={AboutImg} alt="/" className='rounded-xl' />
             </div>
             </div>
-           
         </div>
     </div>
   )

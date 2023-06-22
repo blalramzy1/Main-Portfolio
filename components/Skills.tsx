@@ -11,7 +11,7 @@ import Nodejs from '../public/assets/skills/node.png'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
+    <div id='skills' className='w-full container lg:h-screen'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='py-4 uppercase font-bold tracking-widest text-[25px] text-[#5651e5]'>Skills</p>
             <h2 className='py-3'>What can i Do</h2>

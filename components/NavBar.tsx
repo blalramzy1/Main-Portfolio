@@ -24,10 +24,10 @@ const NavBar = () => {
     },[])
   return (
     <div className={shadow ? 'fixed w-full h-[100px] shadow-xl z-[100] duration-200' : 'fixed w-full h-[100px] duration-200 z-[100]'}>
-        <div className='flex bg-[#ecf0f3] justify-between items-center w-full h-full px-2 xl:px-16'>
+        <div className='flex bg-[#ecf0f3] justify-between items-center w-full h-full px-2'>
             <div className='sm:pl-4 pl-10'>
                 <Link href='/'>
-                    <Image className='w-[200px] pt-1 px-6 cursor-pointer' src={Logo} alt=''/>
+                    <Image className='w-[190px] pt-1 px-6 cursor-pointer' src={Logo} alt=''/>
                 </Link>
             </div>
             <div>
