@@ -7,7 +7,7 @@ import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 export default function Home() {
   return (
-    <div className=''>
+    <div>
       <Head>
         <title> NextJS Dev </title>
       </Head>

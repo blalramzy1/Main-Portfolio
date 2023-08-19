@@ -11,8 +11,8 @@ const Main = () => {
 const router = useRouter();
 
   return (
-    <div className='w-full h-screen text-center container pt-12'>
-        <div className='max-w-[1240px] w-full h-full mx-auto  flex justify-center items-center'>
+    <div className='w- h-screen text-center pt-12'>
+        <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
             <div>
                 <p className='uppercase font-sans text-sm tracking-widest text-gray-600'> LET&#39;S BUILD SOMETHING TOGETHER</p>
                 <h1 className='py-4 font-sans text-gray-700'>Hi, I&#39;m <span className='text-[#5651e5]'>Blal

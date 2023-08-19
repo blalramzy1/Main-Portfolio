@@ -15,7 +15,7 @@ const Projects = () => {
     
 
   return (
-    <div id='projects' className='container'>
+    <div id='projects' >
         <div className='max-w-[1240px] mx-auto  py-16'>
             <p className='py-4 uppercase font-bold tracking-widest text-[25px] text-[#5651e5]'>Projects</p>
             <h2 className='py-4'>What I&#39;ve Built</h2>

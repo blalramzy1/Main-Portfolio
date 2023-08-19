@@ -12,17 +12,17 @@ const Contact = () => {
     const router = useRouter();
 
   return (
-    <div id='contact' className='h-screen container'>
-        <div className='max-w-[1240px] w-full mx-auto py-16'>
+    <div id='contact' className='h-screen '>
+        <div className=''>
             <div className='px-4'>
             <p className='py-4 uppercase font-bold tracking-widest text-[25px] text-[#5651e5]'>Contact</p>
             <h2 className='py-4'>Get In Touch</h2>
             </div>
-            <div className='grid lg:grid-cols-5 gap-8'>
+            <div className='lg:flex '>
                 {/* left */}
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-3'>
                     <div className='lg:p-4 h-full'>
-                        <div>
+                        <div className=''>
                             <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={ContactLogo} alt='' />
                         </div>
                         <div>
